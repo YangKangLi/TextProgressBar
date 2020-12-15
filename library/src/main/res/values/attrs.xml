@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextProgressBar">
+        <!-- 进度条背景 -->
+        <attr name="background_drawable" format="reference" />
+        <!-- 进度条 -->
+        <attr name="progress_drawable" format="reference" />
+        <!-- 进度条高度 -->
+        <attr name="progress_bar_height" format="dimension|reference" />
+        <!-- 进度文本背景：显示在进度值左边 -->
+        <attr name="progress_text_drawable_left" format="reference" />
+        <!-- 进度文本背景：显示在进度值右边 -->
+        <attr name="progress_text_drawable_right" format="reference" />
+        <!-- 进度最大值 -->
+        <attr name="progress_max_value" format="integer" />
+        <!-- 进度当前值 -->
+        <attr name="progress" format="integer" />
+    </declare-styleable>
+</resources>
